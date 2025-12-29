@@ -1,0 +1,87 @@
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 40px;
+  background: #fff;
+}
+
+.product-images .main-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.image-list img {
+  width: 70px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.product-details h1 {
+  font-size: 26px;
+}
+
+.brand {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.price-box {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.discount {
+  color: green;
+  margin-left: 10px;
+}
+
+.rating {
+  font-weight: bold;
+}
+
+.stock.low {
+  color: red;
+}
+
+.description {
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+.specs p {
+  margin: 4px 0;
+}
+
+.buy-btn {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.reviews {
+  grid-column: span 2;
+  margin-top: 40px;
+}
+
+.review {
+  border-top: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.loader {
+  text-align: center;
+  padding: 50px;
+}
